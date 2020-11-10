@@ -25,6 +25,14 @@ a {
   color: #333;
 }
 
+/* utilities */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+}
+
+/* Header */
 header {
   background-color: var(--clr-primary);
   padding: 1.5rem;
@@ -36,4 +44,20 @@ header {
 header .logo h2 {
   font-size: 1.3rem;
   font-weight: 500;
+}
+
+header nav a {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav .btn-outline {
+  border: solid 1px rgb(80, 80, 80);
+  margin-right: 0.5rem;
+}
+
+nav .btn-dark {
+  color: var(--clr-primary);
+  background-color: #000;
 }
