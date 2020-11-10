@@ -41,6 +41,10 @@ header {
   position: relative;
 }
 
+header * {
+  z-index: 1;
+}
+
 header::after {
   content: "";
   position: absolute;
@@ -51,7 +55,7 @@ header::after {
   background: url("https://raster-static.postmates.com/?url=https://buyer-static-gcp.postmates.com/dist/prod/home-header-food-mobile.e41196a7730aab676a88f2ca85f87e23ae4c29e59044591cedf3686f9c9a2ad1bed8b96f345ee27d6f227e732ee1c2a1b6afee107c475a28604f6e7b942ed25d.png&quality=85&w=0&h=1208&mode=auto&format=webp&v=4");
   background-size: cover;
   background-position: bottom;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .main-nav {
@@ -119,6 +123,7 @@ header .text-content {
   position: absolute;
   top: 15px;
   left: 25px;
+  z-index: 2;
 }
 
 .input-form .arrow-icon {
