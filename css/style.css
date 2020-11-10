@@ -27,8 +27,13 @@ a {
 
 header {
   background-color: var(--clr-primary);
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header .logo h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
