@@ -34,8 +34,24 @@ a {
 
 /* Header */
 header {
-  background-color: var(--clr-primary);
+  /* background-color: var(--clr-primary); */
+  background-image: url("https://raster-static.postmates.com?url=https://buyer-static-gcp.postmates.com/dist/prod/home-header-yellow-background.70f396dd69ff23fe08008be0bd3837e1cd504e02e669e0b57b19c22bd72973dfb856cce58766689ceb354c2f1c3f2cacb3de5c34f43ff5c901c0a370c3084203.jpg&quality=85&w=0&h=1500&mode=auto&format=webp&v=4");
+  background-size: cover;
   padding: 1.5rem;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://raster-static.postmates.com/?url=https://buyer-static-gcp.postmates.com/dist/prod/home-header-food-mobile.e41196a7730aab676a88f2ca85f87e23ae4c29e59044591cedf3686f9c9a2ad1bed8b96f345ee27d6f227e732ee1c2a1b6afee107c475a28604f6e7b942ed25d.png&quality=85&w=0&h=1208&mode=auto&format=webp&v=4");
+  background-size: cover;
+  background-position: bottom;
+  z-index: 1;
 }
 
 .main-nav {
@@ -68,7 +84,7 @@ nav .btn-dark {
 header .text-content {
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 75vh;
   text-align: center;
 }
 
@@ -87,13 +103,22 @@ header .text-content {
   margin-top: 2rem;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .text-content .input-form input {
   width: 80%;
-  padding: 1.2rem 1rem;
+  padding: 1.2rem 3rem;
+  margin-left: 1rem;
   border: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.input-form .location-icon {
+  position: absolute;
+  top: 15px;
+  left: 25px;
 }
 
 .input-form .arrow-icon {
