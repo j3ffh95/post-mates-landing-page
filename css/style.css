@@ -117,6 +117,7 @@ header .text-content {
   border: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   outline: none;
+  font-size: 1.1rem;
 }
 
 .input-form .location-icon {
