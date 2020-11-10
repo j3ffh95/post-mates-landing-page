@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
 :root {
   --clr-primary: #ffdf18;
 }
@@ -14,6 +16,11 @@ body {
   font-size: 1.125rem;
   line-height: 1.5;
   background-color: #fafafa;
+  color: #333;
+}
+/* Base Styles */
+a {
+  text-decoration: none;
   color: #333;
 }
 
