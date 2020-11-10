@@ -82,3 +82,26 @@ header .text-content {
   font-weight: 500;
   margin-top: 0.8rem;
 }
+
+.text-content .input-form {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.text-content .input-form input {
+  width: 80%;
+  padding: 1.2rem 1rem;
+  border: none;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-form .arrow-icon {
+  background-color: #000;
+  height: 100%;
+  width: 58px;
+  color: #fafafa;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
