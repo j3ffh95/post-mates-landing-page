@@ -36,6 +36,9 @@ a {
 header {
   background-color: var(--clr-primary);
   padding: 1.5rem;
+}
+
+.main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,4 +63,7 @@ nav .btn-outline {
 nav .btn-dark {
   color: var(--clr-primary);
   background-color: #000;
+}
+
+header .text-content {
 }
