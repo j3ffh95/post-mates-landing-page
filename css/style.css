@@ -2,6 +2,7 @@
 
 :root {
   --clr-primary: #ffdf18;
+  --clr-btn: rgb(0, 204, 153);
 }
 
 *,
@@ -35,6 +36,20 @@ img {
   display: inline-block;
   padding: 0.5rem 1rem;
   border-radius: 16px;
+}
+
+.btn-green {
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--clr-btn);
+  width: 265px;
+  height: 48px;
+  border: none;
+  border-radius: 28px;
+  color: #fafafa;
 }
 
 /* Header */
@@ -147,4 +162,10 @@ header .text-content {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Section A */
+.section-a {
+  text-align: center;
+  padding: 25px 0 40px;
 }
