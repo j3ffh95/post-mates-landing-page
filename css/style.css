@@ -58,6 +58,12 @@ header::after {
   /* z-index: 1; */
 }
 
+/* Container */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -88,8 +94,9 @@ nav .btn-dark {
 header .text-content {
   display: flex;
   flex-direction: column;
-  height: 75vh;
+  height: 70vh;
   text-align: center;
+  align-items: center;
 }
 
 .text-content h1 {
@@ -104,7 +111,7 @@ header .text-content {
 }
 
 .text-content .input-form {
-  margin-top: 2rem;
+  margin: 2rem auto;
   display: flex;
   align-items: center;
   position: relative;
@@ -112,7 +119,7 @@ header .text-content {
 
 .text-content .input-form input {
   width: 80%;
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 2.5rem;
   margin-left: 1rem;
   border: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
