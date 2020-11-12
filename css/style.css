@@ -171,7 +171,8 @@ header .text-content {
 }
 
 .section-a h2,
-.section-b h2 {
+.section-b h2,
+.section-c h2 {
   margin-top: 30px;
   font-size: 28px;
   letter-spacing: -2.2px;
@@ -179,7 +180,8 @@ header .text-content {
 }
 
 .section-a p,
-.section-b p {
+.section-b p,
+.section-c p {
   font-size: 15px;
   padding: 2rem;
   color: rgb(143, 149, 163);
@@ -209,6 +211,11 @@ header .text-content {
 }
 
 /* Section C */
+.section-c {
+  text-align: center;
+  padding: 0 0 4rem 0;
+}
+
 .section-c .flex {
   display: flex;
   justify-content: center;
