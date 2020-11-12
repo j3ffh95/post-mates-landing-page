@@ -169,3 +169,16 @@ header .text-content {
   text-align: center;
   padding: 25px 0 40px;
 }
+
+.section-a h2 {
+  margin-top: 30px;
+  font-size: 28px;
+  letter-spacing: -2.2px;
+  padding: 0 2rem;
+}
+
+.section-a p {
+  font-size: 15px;
+  padding: 2rem;
+  color: rgb(143, 149, 163);
+}
