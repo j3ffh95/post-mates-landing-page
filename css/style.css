@@ -170,14 +170,16 @@ header .text-content {
   padding: 25px 0 40px;
 }
 
-.section-a h2 {
+.section-a h2,
+.section-b h2 {
   margin-top: 30px;
   font-size: 28px;
   letter-spacing: -2.2px;
   padding: 0 2rem;
 }
 
-.section-a p {
+.section-a p,
+.section-b p {
   font-size: 15px;
   padding: 2rem;
   color: rgb(143, 149, 163);
@@ -187,4 +189,9 @@ header .text-content {
 .section-b {
   padding: 0 2rem;
   margin: 5rem 0;
+  text-align: center;
+}
+
+.section-b p {
+  padding: 2rem 0;
 }
