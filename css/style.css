@@ -229,3 +229,16 @@ header .text-content {
   padding: 8px;
   margin: 5px;
 }
+
+/* Section D */
+.section-d {
+  background-color: #0f4c4e;
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 2rem 1rem;
+}
+
+.section-d h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
