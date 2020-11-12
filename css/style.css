@@ -301,3 +301,40 @@ footer .terms a {
   font-size: 12px;
   margin: 0 12px;
 }
+
+/* Displays larger than 768px */
+@media screen and (min-width: 768px) {
+  header::after {
+    background-image: url("https://raster-static.postmates.com?url=https://buyer-static-gcp.postmates.com/dist/prod/home-header-food-tablet.03c1ec1a0a6afd3cb89e1e662bccedc82fd5c194893b3dbdaad843ed1298c82a92573c2e08dd9b9e1169d82f199d528cbc9ac9c47b839fbcb6999ce4e6fac21b.png&quality=85&w=0&h=0&mode=auto&format=webp&v=4");
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  header .text-content {
+    align-items: flex-start;
+  }
+
+  header .text-content {
+    padding-top: 4rem;
+  }
+
+  header .text-content h1 {
+    font-size: 3rem;
+  }
+
+  .input-form {
+    margin: 1.5rem 0;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .input-form input {
+    margin: 0;
+  }
+
+  .input-form .location-icon {
+    left: 10px;
+  }
+}
