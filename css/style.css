@@ -144,7 +144,7 @@ header .text-content {
   border: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   outline: none;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 
 .input-form .location-icon {
@@ -247,4 +247,8 @@ header .text-content {
 
 .section-d p {
   font-size: 14px;
+}
+
+.section-d .input-form .arrow-icon {
+  height: 55px;
 }
