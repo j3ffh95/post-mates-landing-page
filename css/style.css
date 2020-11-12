@@ -252,3 +252,11 @@ header .text-content {
 .section-d .input-form .arrow-icon {
   height: 55px;
 }
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.8em;
+  padding: 4.7rem 2rem;
+}
