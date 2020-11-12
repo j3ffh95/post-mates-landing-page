@@ -199,5 +199,11 @@ header .text-content {
 .section-b a {
   display: inline;
   margin: 0 1rem;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.8rem;
+}
+
+.section-b i {
+  font-size: 20px;
+  vertical-align: text-bottom;
+  margin-right: 0.3rem;
 }
