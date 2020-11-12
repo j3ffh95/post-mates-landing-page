@@ -195,3 +195,9 @@ header .text-content {
 .section-b p {
   padding: 2rem 0;
 }
+
+.section-b a {
+  display: inline;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+}
