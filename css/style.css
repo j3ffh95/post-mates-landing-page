@@ -266,9 +266,25 @@ footer h2 {
   margin: 1rem 0;
 }
 
-footer h3 {
+.footer-box {
+  margin-bottom: 2rem;
+}
+
+.footer-box h3 {
   line-height: 32px;
   font-size: 15px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-box p {
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 22px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-box p > a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
 }
