@@ -228,6 +228,12 @@ header .text-content {
   border-radius: 12px;
   padding: 8px;
   margin: 5px;
+  transition: transform 0.2s ease;
+}
+
+.flex .box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 /* Section D */
