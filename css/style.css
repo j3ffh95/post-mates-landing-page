@@ -260,3 +260,15 @@ footer {
   font-size: 0.8em;
   padding: 4.7rem 2rem;
 }
+
+footer h2 {
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+footer h3 {
+  line-height: 32px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
