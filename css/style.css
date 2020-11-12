@@ -288,3 +288,10 @@ footer h2 {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
 }
+
+footer .terms a {
+  text-transform: uppercase;
+  color: #8f95a3;
+  font-size: 12px;
+  margin: 0 12px;
+}
