@@ -338,4 +338,10 @@ footer .terms a {
   .input-form .location-icon {
     left: 10px;
   }
+
+  /* Section a */
+  .section-a {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
