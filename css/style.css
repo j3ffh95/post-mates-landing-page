@@ -411,7 +411,7 @@ footer .terms a {
   .section-d {
     position: relative;
     z-index: -1;
-    padding: 7rem 4rem;
+    padding: 6rem 4rem;
   }
 
   .section-d::before {
@@ -423,5 +423,19 @@ footer .terms a {
     height: 80%;
     background: url("https://raster-static.postmates.com?url=https://buyer-static-gcp.postmates.com/dist/prod/ready-to-order-food.51b50e784d9cb2acdd8e37a9fda07d937570cd440fde10cdd758862308d6bde614e51c1b877a58dcddfac3245d882619be81aeeec79cff352b9e2dc5393556a1.png&quality=85&w=2304&h=0&mode=auto&format=webp&v=4")
       no-repeat center center/cover;
+  }
+
+  .section-d h2 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .section-d p {
+    max-width: 25rem;
+    margin: auto;
+  }
+
+  .section-d .input-form {
+    margin: 2rem auto;
   }
 }
