@@ -390,4 +390,19 @@ footer .terms a {
     display: flex;
     flex-direction: row-reverse;
   }
+
+  .section-c .flex {
+    width: 40em;
+    align-items: center;
+    align-content: center;
+  }
+
+  .section-c .content-box {
+    text-align: left;
+  }
+
+  .section-c .content-box a {
+    margin-left: 2rem;
+    width: 40%;
+  }
 }
