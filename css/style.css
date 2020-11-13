@@ -128,40 +128,44 @@ header .text-content {
   font-size: 1rem;
   font-weight: 500;
   margin-top: 0.8rem;
+  padding-bottom: 1.4rem;
 }
 
 .input-form {
-  margin: 2rem auto;
   display: flex;
-  align-items: center;
-  position: relative;
+  justify-content: space-between;
+  max-width: 400px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  background-color: #fff;
+}
+
+.input-box {
+  display: flex;
 }
 
 .input-form input {
-  width: 80%;
-  padding: 1.2rem 2.5rem;
-  margin-left: 1rem;
+  width: 50%;
+  padding: 1rem 0.5rem;
   border: none;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   outline: none;
   font-size: 0.8rem;
+  flex-grow: 1;
 }
 
 .input-form .location-icon {
-  position: absolute;
-  top: 15px;
-  left: 25px;
-  z-index: 2;
+  display: grid;
+  place-items: center;
+  padding-left: 16px;
+  background-color: #fff;
 }
 
 .input-form .arrow-icon {
   background-color: #000;
-  height: 100%;
-  width: 58px;
+  width: 50px;
   color: #fafafa;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
 }
 
 /* Section A */
@@ -209,6 +213,9 @@ header .text-content {
   vertical-align: text-bottom;
   margin-right: 0.3rem;
 }
+.section-b form {
+  display: none;
+}
 
 /* Section C */
 .section-c {
@@ -242,7 +249,7 @@ header .text-content {
   color: #fff;
   text-align: center;
   line-height: 25px;
-  padding: 2.5rem 2rem 1rem;
+  padding: 2.5rem;
 }
 
 .section-d h2 {
@@ -253,10 +260,12 @@ header .text-content {
 
 .section-d p {
   font-size: 14px;
+  max-width: 23rem;
+  margin: 1.33rem auto;
 }
 
-.section-d .input-form .arrow-icon {
-  height: 55px;
+.section-d .input-form {
+  margin: 0 auto;
 }
 
 /* Footer */
@@ -318,25 +327,14 @@ footer .terms a {
 
   header .text-content {
     padding-top: 4rem;
-    height: 55vh;
   }
 
   header .text-content h1 {
     font-size: 3rem;
   }
 
-  .input-form {
-    margin: 1.5rem 0;
-    width: 100%;
-    max-width: 450px;
-  }
-
-  .input-form input {
-    margin: 0;
-  }
-
-  .input-form .location-icon {
-    left: 10px;
+  header .text-content h2 {
+    padding-bottom: 1.4rem;
   }
 
   /* Section a */
