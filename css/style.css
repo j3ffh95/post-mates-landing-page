@@ -384,4 +384,10 @@ footer .terms a {
   .section-b button {
     width: 60%;
   }
+
+  /* Section C */
+  .section-c {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
