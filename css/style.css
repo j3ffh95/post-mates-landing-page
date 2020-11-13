@@ -361,6 +361,10 @@ footer .terms a {
     padding: 0;
   }
 
+  .section-b p {
+    padding: 1rem 0;
+  }
+
   .section-b .section-img {
     width: 70%;
   }
@@ -374,5 +378,10 @@ footer .terms a {
     margin-bottom: 1em;
     padding: 15px;
     font-size: 13px;
+    border: 1px solid rgba(217, 219, 224, 0.5);
+  }
+
+  .section-b button {
+    width: 60%;
   }
 }
