@@ -389,6 +389,7 @@ footer .terms a {
   .section-c {
     display: flex;
     flex-direction: row-reverse;
+    padding: 0 0 5rem 0;
   }
 
   .section-c .flex {
