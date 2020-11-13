@@ -340,8 +340,39 @@ footer .terms a {
   }
 
   /* Section a */
-  .section-a {
+  .section-a,
+  .section-b {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  /* Section b */
+  .section-b {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .section-b .content-box {
+    margin-left: 1.5em;
+    width: 50%;
+  }
+
+  .section-b h2 {
+    padding: 0;
+  }
+
+  .section-b .section-img {
+    width: 70%;
+  }
+
+  .section-b .app-buttons {
+    display: none;
+  }
+
+  .section-b form input[type="text"] {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 15px;
+    font-size: 13px;
   }
 }
