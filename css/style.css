@@ -371,6 +371,10 @@ footer .terms a {
     display: none;
   }
 
+  .section-b form {
+    display: block;
+  }
+
   .section-b form input[type="text"] {
     width: 100%;
     margin-bottom: 1em;
@@ -387,7 +391,7 @@ footer .terms a {
   .section-c {
     display: flex;
     flex-direction: row-reverse;
-    padding: 0 0 5rem 0;
+    padding: 0 2rem 5rem;
   }
 
   .section-c .flex {
