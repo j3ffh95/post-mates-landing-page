@@ -448,4 +448,28 @@ footer .terms a {
 
 /* Screens larger than 1024 width */
 @media screen and (min-width: 1024px) {
+  .container {
+    padding: 0;
+  }
+
+  .input-box {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .input-form input {
+    font-size: 1rem;
+  }
+
+  header::after {
+    background-image: url("https://raster-static.postmates.com/?url=https://buyer-static-gcp.postmates.com/dist/prod/home-header-food-desktop.107acc9414aa82584e32f090a7056466ae3e9ec19a8b99efa270ff80f2d88c858a25591442bf63ed4707e571354d65596ef1fb45639c7cb4c7e3cfb5ad26b39f.png&quality=85&w=0&h=1360&mode=auto&format=webp&v=4");
+  }
+
+  header .text-content {
+    height: 55vh;
+  }
+
+  .text-content h1 {
+    margin-top: 2rem;
+  }
 }
