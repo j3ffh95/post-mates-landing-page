@@ -422,7 +422,7 @@ footer .terms a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80%;
+    height: 100%;
     background: url("https://raster-static.postmates.com?url=https://buyer-static-gcp.postmates.com/dist/prod/ready-to-order-food.51b50e784d9cb2acdd8e37a9fda07d937570cd440fde10cdd758862308d6bde614e51c1b877a58dcddfac3245d882619be81aeeec79cff352b9e2dc5393556a1.png&quality=85&w=2304&h=0&mode=auto&format=webp&v=4")
       no-repeat center center/cover;
   }
