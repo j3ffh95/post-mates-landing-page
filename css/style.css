@@ -445,3 +445,7 @@ footer .terms a {
     text-align: center;
   }
 }
+
+/* Screens larger than 1024 width */
+@media screen and (min-width: 1024px) {
+}
