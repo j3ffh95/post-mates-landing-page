@@ -440,4 +440,8 @@ footer .terms a {
   .section-d .input-form {
     margin: 2rem auto;
   }
+
+  .footer {
+    text-align: center;
+  }
 }
