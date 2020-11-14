@@ -514,4 +514,10 @@ footer .terms a {
   .section-b .content-box p {
     margin: 2em 0;
   }
+
+  /* Section C */
+
+  .section-c .flex {
+    width: 55em;
+  }
 }
