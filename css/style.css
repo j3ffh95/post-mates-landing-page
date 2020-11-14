@@ -481,7 +481,7 @@ footer .terms a {
 
   .content-box h2 {
     font-size: 1.8em;
-    line-height: 1.4;
+    line-height: 1.2;
   }
 
   .content-box p {
@@ -502,4 +502,16 @@ footer .terms a {
   }
 
   /* Section b */
+  .section-b .section-img {
+    width: 50%;
+  }
+
+  .section-b .content-box {
+    margin-left: 4em;
+    justify-content: center;
+  }
+
+  .section-b .content-box p {
+    margin: 2em 0;
+  }
 }
