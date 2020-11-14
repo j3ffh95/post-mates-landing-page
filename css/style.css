@@ -472,4 +472,34 @@ footer .terms a {
   .text-content h1 {
     margin-top: 2rem;
   }
+
+  /* Sectian A */
+  .content-box h2,
+  .content-box p {
+    padding: 0;
+  }
+
+  .content-box h2 {
+    font-size: 1.8em;
+    line-height: 1.4;
+  }
+
+  .content-box p {
+    font-size: 0.7em;
+  }
+
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .section-a,
+  .section-b {
+    margin: 6rem 0;
+  }
+
+  /* Section b */
 }
